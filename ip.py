@@ -8,8 +8,8 @@ class ip_founder:
     Bpart=int(input("enter part B of the ip\t"))
     Cpart=int(input("enter part C of the ip\t"))
     Dpart=int(input("enter part D of the ip\t"))    
-    ip=[Apart,Bpart,Cpart,Dpart]
-    ip_add=(" ").join(ip)
+    ip=[str(Apart),str(Bpart),str(Cpart),str(Dpart)]
+    ip_add=(".").join(ip)
     if (Apart<=127):
         class_name='A'
     elif (Apart>=128 and Apart<=191) and (Bpart>255):
